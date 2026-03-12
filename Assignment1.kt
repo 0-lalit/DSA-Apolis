@@ -76,7 +76,6 @@ fun improvedBubbleSort(arr: IntArray): IntArray {
                 swapped = true
             }
         }
-
         if(!swapped){
             break
         }
