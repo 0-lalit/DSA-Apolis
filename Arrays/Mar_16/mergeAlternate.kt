@@ -15,7 +15,7 @@ fun mergeAlternate(a: IntArray, b: IntArray): List<Int> {
             result.add(a[i])
         }
         if (i < b.size){
-            
+
             result.add(b[i])
         }
     }

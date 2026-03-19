@@ -17,5 +17,6 @@ fun mostOccuring(str: String): Char {
 }
 
 fun main() {
-    println("Most Occuring Char: ${mostOccuring("programmingggggg)}")
+    val str ="programmingggggg"
+    println("Most Occuring Char: ${mostOccuring(str)}")
 }
